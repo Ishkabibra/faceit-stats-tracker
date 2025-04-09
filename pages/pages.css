@@ -1,0 +1,45 @@
+@import url(../vendor/fonts.css);
+
+@import url(../blocks/main.css);
+@import url(../blocks/header/title.css);
+
+@import url(../blocks/main/__head/main__head.css);
+@import url(../blocks/main/__title/main__title.css);
+@import url(../blocks/main/__button/main__button.css);
+@import url(../blocks/main/__button1/__form/main__button1__form.css);
+@import url(../blocks/main/__button1/main__button1.css);
+@import url(../blocks/main/__container/main__container.css);
+@import url(../blocks/main/__button/button.css);
+@import url(../blocks/main/__buttons/main__buttons.css);
+@import url(../blocks/main/__button/__button1/main__button1.css);
+@import url(../blocks/main/__button/__button2/main__button2.css);
+@import url(../blocks/main/__button/__button3/main__button3.css);
+
+@import url(../blocks/stats/stats.css);
+@import url(../blocks/stats/stats__title/stats__title.css);
+@import url(../blocks/stats/stats__title/stats__title2.css);
+@import url(../blocks/head/title__main.css);
+
+@import url(../blocks/cards/__card/game-switcher/game-switcher.css);
+@import url(../blocks/cards/__card/game-switcher/game-switch-btn/__game-switch-btn.css);
+@import url(../blocks/cards/__card/player-stats/loading-spinner/loading-spinner.css);
+
+@import url(../blocks/cards/cards.css);
+@import url(../blocks/cards/__card/card.css);
+@import url(../blocks/cards/__card/card__info/card__info.css);
+@import url(../blocks/cards/__card/card__info/card__elo/card__elo.css);
+@import url(../blocks/cards/__card/card__info/card__img-container/card__img-container.css);
+@import url(../blocks/cards/__card/card__info/card__img-container/card__link/card__link.css);
+@import url(../blocks/cards/__card/card__info/card__img-container/card__img.css);
+@import url(../blocks/cards/__card/card__info/card__img-container/steam__img.css);
+@import url(../blocks/cards/__card/card__info/card__img-container/faceit__img.css);
+@import url(../blocks/cards/__card/card__info/card__lvl/card__lvl.css);
+@import url(../blocks/cards/__card/card__info/card__name/card__name.css);
+@import url(../blocks/cards/__card/card__info/card__steam/card__steam.css);
+
+@import url(../blocks/cards/__card/player-stats/player-stats.css);
+@import url(../blocks/cards/__card/card__info/best-stats.css);
+@import url(../blocks/cards/__card/player-stats/player-stats-title/player-stats-title.css);
+@import url(../blocks/cards/__card/player-stats/player-stats-info/player-stats-info.css);
+@import url(../blocks/cards/__card/player-stats/player-stats-label/player-stats-label.css);
+@import url(../blocks/cards/__card/player-stats/player-stats-value/player-stats-value.css);

@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
+    <meta name="robots" content="noindex, nofollow">
+    <title>Document</title>
+    <link rel="stylesheet" href="pages/pages.css">
+
+</head>
+<body class="main">
+    <section class="main__head">
+        <div class="main__container">
+            <h1 class="main__title">FaceIT Stats</h1>
+        </div>
+
+        <div class="main__buttons">
+            <button class="button main__button2">Войти</button>
+            <button class="button main__button3">Зарегистрироваться</button>
+        </div>
+    </section>
+
+    <div>
+        <!-- <section>
+            <div class="stats">
+                <button class="stats__title">Kills</button>
+                <button class="stats__title">ADR</button>
+                <button class="stats__title">K/D</button>
+                <button class="stats__title">K/R</button>
+                <button class="stats__title">Win Rate</button>
+                <button class="stats__title">HS%</button>
+                <button class="stats__title">Deaths</button>
+            </div>
+        </section> -->
+        
+        <section class="cards">
+            <div class=card id="player1">
+                <p class="card__name"></p>
+                <div class="card__info">
+                    <div class="card__img-container">
+                        <a href="" class="card__link steam-link">
+                            <img src="./images/icons8-steam.svg" class="steam__img">
+                        </a>
+                        <img src="" class="card__img">
+                        <a href="" class="card__link faceit-link">
+                            <img src="./images/icons8-faceit.svg" class="faceit__img">
+                        </a>
+                    </div>
+                    <p class="card__elo"> 
+                        <span class="elo-label">ELO:</span> 
+                        <span class="elo-value"></span>
+                    </p>                    
+                    <img src="" class="card__lvl">
+                </div>
+                <div class="game-switcher">
+                    <button class="game-switch-btn active" data-game="cs2" data-player="player1">CS2</button>
+                    <button class="game-switch-btn" data-game="csgo" data-player="player1">CS:GO</button>
+                </div>
+                <div class="player-stats">
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">Matches</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">Kills</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">K/D</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">K/R</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">Win Rate</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">HS%</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">ADR</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">Avg Deaths</span>
+                        <span class="player-stats-value">0</span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">Avg Kills</span>
+                        <span class="player-stats-value">0</span>
+                    </div>
+                </div>
+            </div>
+            <div class=card id="player2">
+                <p class="card__name"></p>
+                <div class="card__info">
+                    <div class="card__img-container">
+                        <a href="" class="card__link steam-link">
+                            <img src="./images/icons8-steam.svg" class="steam__img">
+                        </a>
+                        <img src="" class="card__img">
+                        <a href="" class="card__link faceit-link">
+                            <img src="./images/icons8-faceit.svg" class="faceit__img">
+                        </a>
+                    </div>
+                    <p class="card__elo"> 
+                        <span class="elo-label">ELO:</span> 
+                        <span class="elo-value"></span>  
+                    </p>                   
+                    <img src="" class="card__lvl">
+                </div>
+                <div class="game-switcher">
+                    <button class="game-switch-btn active" data-game="cs2" data-player="player2">CS2</button>
+                    <button class="game-switch-btn" data-game="csgo" data-player="player2">CS:GO</button>
+                </div>
+                <div class="player-stats">
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">Matches</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">Kills</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">K/D</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">K/R</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">Win Rate</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">HS%</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">ADR</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">Avg Deaths</span>
+                        <span class="player-stats-value">0</span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">Avg Kills</span>
+                        <span class="player-stats-value">0</span>
+                    </div>
+                </div>
+            </div>
+            <div class=card id="player3">
+                <p class="card__name"></p>
+                <div class="card__info">
+                    <div class="card__img-container">
+                        <a href="" class="card__link steam-link">
+                            <img src="./images/icons8-steam.svg" class="steam__img">
+                        </a>
+                        <img src="" class="card__img">
+                        <a href="" class="card__link faceit-link">
+                            <img src="./images/icons8-faceit.svg" class="faceit__img">
+                        </a>
+                    </div>
+                    <p class="card__elo"> 
+                        <span class="elo-label">ELO:</span> 
+                        <span class="elo-value"></span> 
+                    </p>
+                    <img src="" class="card__lvl">
+                </div>
+                <div class="game-switcher">
+                    <button class="game-switch-btn active" data-game="cs2" data-player="player3">CS2</button>
+                    <button class="game-switch-btn" data-game="csgo" data-player="player3">CS:GO</button>
+                </div>
+                <div class="player-stats">
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">Matches</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">Kills</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">K/D</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">K/R</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">Win Rate</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">HS%</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">ADR</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">Avg Deaths</span>
+                        <span class="player-stats-value">0</span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">Avg Kills</span>
+                        <span class="player-stats-value">0</span>
+                    </div>
+                </div>
+            </div>
+            <div class=card id="player4">
+                <p class="card__name"></p>
+                <div class="card__info">
+                    <div class="card__img-container">
+                        <a href="" class="card__link steam-link">
+                            <img src="./images/icons8-steam.svg" class="steam__img">
+                        </a>
+                        <img src="" class="card__img">
+                        <a href="" class="card__link faceit-link">
+                            <img src="./images/icons8-faceit.svg" class="faceit__img">
+                        </a>
+                    </div>
+                    <p class="card__elo"> 
+                        <span class="elo-label">ELO:</span> 
+                        <span class="elo-value"></span> 
+                    </p>
+                    <img src="" class="card__lvl">
+                </div>
+                <div class="game-switcher">
+                    <button class="game-switch-btn active" data-game="cs2" data-player="player4">CS2</button>
+                    <button class="game-switch-btn" data-game="csgo" data-player="player4">CS:GO</button>
+                </div>
+                <div class="player-stats">
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">Matches</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">Kills</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">K/D</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">K/R</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">Win Rate</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">HS%</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">ADR</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">Avg Deaths</span>
+                        <span class="player-stats-value">0</span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">Avg Kills</span>
+                        <span class="player-stats-value">0</span>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class=card id="player5">
+                <p class="card__name"></p>
+                <div class="card__info">
+                    <div class="card__img-container">
+                        <a href="" class="card__link steam-link">
+                            <img src="./images/icons8-steam.svg" class="steam__img">
+                        </a>
+                        <img src="" class="card__img">
+                        <a href="" class="card__link faceit-link">
+                            <img src="./images/icons8-faceit.svg" class="faceit__img">
+                        </a>
+                    </div>
+                    <p class="card__elo"> 
+                        <span class="elo-label">ELO:</span> 
+                        <span class="elo-value"></span> 
+                    </p>
+                    <img src="" class="card__lvl">
+                </div>
+                <h1 class="player-stats-title">CS2 Stats</h1>
+                <div class="player-stats">
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">Matches</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">Kills</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">K/D</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">K/R</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">Win Rate</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">HS%</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">ADR</span>
+                        <span class="player-stats-value"></span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">Avg Deaths</span>
+                        <span class="player-stats-value">0</span>
+                    </div>
+                    <div class="player-stats-info">
+                        <span class="player-stats-label">Avg Kills</span>
+                        <span class="player-stats-value">0</span>
+                    </div>
+                </div>
+            </div> -->
+        </section>
+        <!-- <h1 class="title">Info</h1> -->
+    </div>
+    <script type="module" src="../faceit-stats-tracker/js/script-cs2+csgo.js"></script>
+
+</body>
+</html>

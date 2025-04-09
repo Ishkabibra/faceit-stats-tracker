@@ -1,0 +1,6 @@
+.card__lvl {
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    height: 40px;
+}

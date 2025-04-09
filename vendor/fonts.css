@@ -1,0 +1,29 @@
+@font-face { 
+    font-family: 'Open Sans'; 
+    font-style: normal; 
+    font-weight: 400; 
+    src: url(../fonts/OpenSans-Regular.ttf) format('truetype');
+}
+
+@font-face { 
+    font-family: 'Open Sans'; 
+    font-style: normal; 
+    font-weight: 600; 
+    src: url(../fonts/OpenSans-SemiBold.ttf) format('truetype');
+}
+
+@font-face { 
+    font-family: 'Open Sans'; 
+    font-style: normal; 
+    font-weight: 900; 
+    src: url(../fonts/OpenSans-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'Nekst';
+    font-weight: 600;
+    font-style: normal;
+    src: url(../fonts/Nekst-SemiBold.ttf) format('truetype');
+    src: url(../fonts/Nekst-SemiBold.woff) format('woff');
+    src: url(../fonts/Nekst-SemiBold.woff2), format('woff2');
+  }

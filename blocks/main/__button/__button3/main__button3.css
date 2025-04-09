@@ -1,0 +1,19 @@
+.main__button3 {
+    border: 1px solid #fff;
+    font-family: 'Nekst';
+    font-weight: 900;
+    font-size: clamp(14px, 2vw, 24px);
+    color: #fff;
+    background-color: #252a31;
+    border-radius: 12px;
+    padding: clamp(10px, 1.5vw, 20px);
+    text-transform: uppercase;
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.main__button3:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+    cursor: pointer;
+}

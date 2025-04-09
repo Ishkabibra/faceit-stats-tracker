@@ -1,0 +1,27 @@
+.card__link {
+    margin: auto;
+    height: 64px;
+    width: 64px;
+    border-radius: 50px;
+    display: inline-block;
+    transition: transform 0.2s ease;
+    
+}
+
+@media screen and (max-width:900px) {
+    .card__link{
+        height: 45px;
+        width: 45px;
+    }
+}
+
+@media screen and (max-width:699px) {
+    .card__link{
+        height: 64px;
+        width: 64px;
+    }
+}
+
+.card__link:hover {
+    transform: scale(1.1);
+}

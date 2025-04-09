@@ -1,0 +1,29 @@
+.card__img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 2px solid rgb(255, 165, 0);
+    display: flex;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:900px) {
+    .card__img {
+        height: 80px;
+        width: 80px;
+    }
+}
+
+@media screen and (max-width:699px) {
+    .card__img {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width:630px) {
+    .card__img {
+        height: 70px;
+        width: 70px;
+    }
+}

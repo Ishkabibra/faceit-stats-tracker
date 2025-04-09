@@ -1,0 +1,6 @@
+.stats {
+    display: flex;
+    max-width: 1500px;
+    margin: auto;
+    margin-top: 10px;
+}

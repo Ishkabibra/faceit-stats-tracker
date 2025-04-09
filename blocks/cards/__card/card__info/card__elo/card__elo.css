@@ -1,0 +1,9 @@
+.card__elo {
+    text-align: center;
+    margin: 10px 0;
+    margin-bottom: 5px;
+}
+
+.elo-label{
+    color: rgb(255, 165, 0);
+}

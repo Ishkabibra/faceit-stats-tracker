@@ -1,0 +1,33 @@
+.main__button2 {
+    font-family: 'Nekst';
+    font-weight: 900;
+    font-size: clamp(14px, 2vw, 24px);
+    border-color: transparent;
+    background-color: rgb(240, 134, 14);
+    border-radius: 12px;
+    padding: clamp(10px, 1.5vw, 20px);
+    text-transform: uppercase;
+    display: inline-block;
+    transition: transform 0.2s ease;
+}
+
+.main__button2:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+/* @media screen and (max-width:900px) {
+    .main__button2 {
+        font-size: 18px;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width:705px) {
+    .main__button2 {
+        margin: 10px;
+        margin-bottom: 5px;
+        padding: 15px;
+    }
+} */

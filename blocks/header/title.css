@@ -1,0 +1,8 @@
+.title {
+    font-family: 'Open Sans';
+    font-weight: 900;
+    text-align: center;
+    border: 1px solid red;
+    max-width: 1500px;
+    margin: auto;
+}

@@ -1,0 +1,18 @@
+.stats__title {
+    font-family: 'Nekst';
+    font-weight: 900;
+    text-align: center;
+    font-size: 25px;
+    max-width: 1500px;
+    margin: auto;
+    border: 1px solid red;
+    background-color: rgb(102, 102, 102);
+    color: #fff;
+    border-radius: 12px;
+    padding: 10px 20px;
+}
+
+.stats__title:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}

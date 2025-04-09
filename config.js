@@ -1,0 +1,2 @@
+const FACEIT_API_KEY = '91e26692-e309-4d7f-8b37-cc6ccd98c169';
+export { FACEIT_API_KEY };

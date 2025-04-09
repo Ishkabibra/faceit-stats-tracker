@@ -1,0 +1,26 @@
+.game-switch-btn {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: #2c333a;
+    color: #fff;
+    font-family: 'Nekst';
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.game-switch-btn:hover {
+    background-color: #3a424b;
+}
+
+.game-switch-btn.active {
+    background-color: rgb(240, 134, 14);
+    color: #000;
+}
+
+.game-switch-btn[disabled] {
+    opacity: 0.6;
+    cursor: not-allowed;
+}

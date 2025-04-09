@@ -1,0 +1,18 @@
+.player-stats-value {
+    font-family: 'Nekst';
+    font-size: 18px;
+    color: #fff;
+}
+
+.player-stats-value:empty::after {
+    content: "загрузка...";
+    color: #999;
+}
+
+.player-stats-value {
+    transition: all 0.3s ease;
+}
+.player-stats-value.updated {
+    color: #4CAF50;
+    transform: scale(1.1);
+}

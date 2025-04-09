@@ -1,0 +1,14 @@
+.best-stat {
+    color: #FFD700 !important; /* Желтый цвет */
+    font-weight: bold;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.5); /* Небольшая тень для лучшей читаемости */
+}
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.best-stat {
+    animation: pulse 1.5s infinite;
+}

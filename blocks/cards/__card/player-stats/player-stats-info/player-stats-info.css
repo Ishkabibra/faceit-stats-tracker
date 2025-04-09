@@ -1,0 +1,8 @@
+.player-stats-info {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px dashed;
+    padding-bottom: 5px;
+    color: #fff;
+    margin-bottom: 5px;
+}

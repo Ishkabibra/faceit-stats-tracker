@@ -1,0 +1,6 @@
+# Файлы с API-ключами
+config.js
+
+# Системные файлы
+.DS_Store
+Thumbs.db

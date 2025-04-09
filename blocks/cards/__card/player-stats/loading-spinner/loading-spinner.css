@@ -1,0 +1,18 @@
+.loading-spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    color: #fff;
+    font-size: 18px;
+}
+
+.best-stat {
+    color: #f0860e;
+    font-weight: bold;
+}
+
+.player-stats-value.empty {
+    color: #999;
+    font-style: italic;
+}

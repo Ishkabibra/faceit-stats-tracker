@@ -1,0 +1,12 @@
+.main__buttons{
+    display: flex;
+    gap: 1vw;
+    align-items: center;
+}
+
+@media screen and (max-width:705px) {
+    .main__buttons {
+        flex-direction: column; /* Кнопки друг под другом */
+        gap: 1vh;
+    }
+}

@@ -1,0 +1,32 @@
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(100px, 1fr));
+    gap: 20px;
+    max-width: 1500px;
+    /* margin: 50px 25px; */
+    width: calc(100% - 50px);
+    margin: 50px auto;
+    margin-bottom: 0;
+}
+
+@media screen and (max-width:1200px) {
+    .cards {
+        grid-template-columns: repeat(3, minmax(100px, 1fr));
+        width: calc(100% - 25px);
+    }
+}
+
+@media screen and (max-width:705px) {
+    .cards {
+        grid-template-columns: repeat(2, minmax(100px, 1fr));
+        width: calc(100% - 40px);
+    }
+}
+
+@media screen and (max-width:500px) {
+    .cards {
+        grid-template-columns: repeat(1, minmax(100px, 1fr));
+        width: calc(100% - 20px);
+        margin-top: 30px;
+    }
+}
